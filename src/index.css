@@ -1,12 +1,34 @@
-body {
-  margin: 0;
-  padding: 0;
+html {
+  box-sizing: border-box;
   font-family: sans-serif;
-  background-color: rgb(54, 54, 54);
-  color: white;
+  font-size: 16px;
+  background-color: #EEE;
 }
 
+body { overflow-x: hidden; }
 
-* {
-  box-sizing: border-box;
+*,
+*:after,
+*:before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #004B76;
+  cursor: pointer;
+  transition: all .3s ease-out;
+}
+
+a:hover { color: #61DAFB; }
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+mark {
+  color: #FFF;
+  background-color: #CC7A6F;
 }
